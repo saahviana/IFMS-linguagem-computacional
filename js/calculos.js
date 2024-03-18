@@ -1,6 +1,6 @@
 function calculo(x,y){
     Soma = x+y;
-    console.log("a soma de "+x+" + "+y+" é igual a "+soma);
+    console.log("a soma de "+x+" + "+y+" é igual a "+Soma);
     divisao = x/y;
     console.log("a Divisão de "+x+" / "+y+" é igual a "+divisao);
     subtracao = x-y;
@@ -8,3 +8,4 @@ function calculo(x,y){
     multiplicacao = x*y;
     console.log("a Multiplicação de "+x+" * "+y+" é igual a "+multiplicacao);
 }
+calculo(2,3);
