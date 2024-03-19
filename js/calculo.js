@@ -2,7 +2,7 @@ function calculo(x,y){
     if (x==='' || y===''){
         return('Preencha os dois campos');
     }
-    soma=parseInt(x)+parseInt(y);
+    soma=parseInt(x)+parseInt(y);  
     CalculoString = ("A Soma é igual a "+soma+"<br />");
 
     subtrcao=x-y;
